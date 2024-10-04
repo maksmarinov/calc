@@ -1,0 +1,130 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.temp {
+    color: white;
+    background: black;
+    font-size: 25px;
+}
+
+.calc {
+    width: 400px;
+    height: 400px;
+
+}
+
+.result {
+    height: 100px;
+    font-size: 34px;
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: end;
+    align-items: end;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: "clear clear bcksp plus" "one two three divd" "four five six mult" "seven eight nine subtrct" "zer zer zer equal";
+    height: 100%;
+}
+
+.btn {
+    border: solid;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 23px;
+    background-color: #f5f5dc;
+}
+
+.btn:hover {
+    background-color: #d4d4a6;
+}
+
+.btn:active {
+    background-color: #808045;
+}
+
+.actns {
+    background-color: #ffa500;
+}
+
+.actns:hover {
+    background-color: #bd7b00;
+}
+
+.actns:active {
+    background-color: #794e00;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.zero {
+    grid-area: zer;
+}
+
+.divide {
+    grid-area: divd;
+}
+
+.subtract {
+    grid-area: subtrct;
+}
+
+.multiply {
+    grid-area: mult;
+}
+
+.add {
+    grid-area: plus;
+}
+
+.clear {
+    grid-area: clear;
+}
+
+.backspace {
+    grid-area: bcksp;
+}
+
+.equal {
+    grid-area: equal;
+}
