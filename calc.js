@@ -1,11 +1,11 @@
 let result = 0;
 let current = 0;
 let action = 0;
-let res = document.querySelector(".result");
-let num = document.querySelectorAll('.num');
-let fnc = document.querySelectorAll('.fnc');
-let actns = document.querySelectorAll('.actns');
-let temp = document.querySelector('.temp');
+const res = document.querySelector(".result");
+const num = document.querySelectorAll('.num');
+const fnc = document.querySelectorAll('.fnc');
+const actns = document.querySelectorAll('.actns');
+const temp = document.querySelector('.temp');
 
 num.forEach(buttn => {
     buttn.addEventListener("click", (event) => {
